@@ -11,6 +11,7 @@ import CommonSetter from './CommonSetter';
 import GroupSetter from './GroupSetter';
 import PathSetter from './PathSetter';
 import RoughSetter from './RoughSetter';
+import ChatSetter from './ChatSetter';
 import { SETTER_WIDTH } from '@/config';
 import { useTranslation } from '@/i18n/utils';
 
@@ -146,6 +147,8 @@ export default function Setter () {
       >
         {renderSetter()}
         <CommonSetter />
+        <Divider />
+        <ChatSetter />
       </div>
     </Sider>
   )

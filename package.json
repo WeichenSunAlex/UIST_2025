@@ -4,6 +4,7 @@
   "description": "fabritor-web",
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
+    "@ant-design/x": "^1.0.5",
     "@emoji-mart/data": "^1.1.2",
     "@emoji-mart/react": "^1.1.1",
     "@ice/runtime": "^1.2.7",
